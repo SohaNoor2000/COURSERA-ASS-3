@@ -1,0 +1,45 @@
+
+.navbar
+{
+    background-color: rgb(155, 148, 148);
+    border-bottom: 3px solid black;
+    
+}
+.navbar h1{
+    font-size: 2em;
+}
+.content
+{
+   
+    background-color: rgb(155, 148, 148);
+    margin-bottom: 20px;
+ 
+}
+
+
+
+#navbarNav ul li{
+    border-bottom: 2px solid black;
+    
+}
+ul li:nth-child(1)
+{
+    border-top: 2px solid black;
+}
+
+@media(min-width:768px)
+{
+    .navbar-toggler
+   {
+     display: none;
+   }
+
+}
+@media(max-width:767px)
+{
+    .content
+    {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
